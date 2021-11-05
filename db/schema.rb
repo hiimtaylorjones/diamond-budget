@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_11_05_144744) do
     t.bigint "budget_id"
     t.string "payee"
     t.date "execute_date"
-    t.integer "value"
+    t.integer "value_cents"
     t.string "notes"
     t.boolean "cleared"
     t.datetime "created_at", precision: 6, null: false

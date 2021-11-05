@@ -4,7 +4,7 @@ class CreateTransactions < ActiveRecord::Migration[6.1]
       t.belongs_to :budget
       t.string :payee
       t.date :execute_date
-      t.integer :value
+      t.integer :value_cents
       t.string :notes
       t.boolean :cleared
       t.timestamps
